@@ -8,6 +8,8 @@ This repository demonstrates an automated, event-driven serverless reporting sol
 
 The application automatically generates and emails a daily Sales Analysis Report to stakeholders without requiring manual intervention or dedicated long-running servers. 
 
+![Architecture Diagram](https://raw.githubusercontent.com/your-username/aws-lambda-sales-reporter/main/docs/architecture.png)
+
 ### How It Works:
 1. **Scheduled Trigger:** An Amazon EventBridge rule initiates the main orchestrator Lambda function on a daily schedule.
 2. **Secure Credentials Retrieval:** The Lambda function fetches database connection parameters from **AWS Systems Manager (SSM) Parameter Store**, keeping secrets separated from application code.
