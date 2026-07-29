@@ -1,4 +1,4 @@
-# AWS-Lamda
+# AWS-Lambda
 Serverless reporting pipeline using AWS Lambda, EventBridge, and SNS to query an EC2 LAMP database via SSM Parameter Store credentials.
 
 
